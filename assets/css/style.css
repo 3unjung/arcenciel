@@ -1,0 +1,145 @@
+/*
+    * absolue : positionne selon un côté de la page
+    * relative : positionne selon la position d'origine et du div le plus proche
+*/
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+.betatest {
+    border: solid fuchsia 1px;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+
+}
+
+/* BODY */
+body {
+    color: #fff;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    /* Margin bottom by footer height */
+    margin-bottom: 180px;
+    /* background-image: url("../img/akahitoha.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    */
+}
+
+/* .transparent {
+    background-color: #000000;
+    opacity: 0.7;
+} */
+
+
+/* NAVIGATIONS */
+/* MENU NAVIGATION */
+.menu-area {
+    position: static;
+}
+
+/* AERA DROPDOWN MENU */
+.mega-area {
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 15px;
+}
+
+/* CONTACTS*/
+.links-contact {
+    background-position: right;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 15px;
+
+}
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+/* TEXT COLOR */
+.mega-area,
+.links-contact,
+.dropdown-item {
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #F54265;
+}
+
+.mega-area .dropdown-item:hover {
+    background-color: #F54265;
+}
+
+.links-contact a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #F54265;
+}
+
+.contacts a:hover {
+    background-color: #F54265;
+}
+
+/* TAGS */
+#categories {
+    position: absolute;
+    width: 15%;
+    padding: 15px;
+}
+
+#categories,
+h3,
+.nav-item {
+    color: white;
+}
+
+#categories,
+a:active {
+    color: white;
+}
+
+#categories a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #F54265;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 180px;
+}
+
+footer p {
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
